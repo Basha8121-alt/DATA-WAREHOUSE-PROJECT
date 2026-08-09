@@ -5,6 +5,9 @@ Using this script will drop all existing data from 'DataWarehouse' if this named
 */
 
 -- *** CREATING A BRAND NEW DATA WAREHOUSE ***
+-- *** TO CREATE A NEW DATA WAREHOUSE WE NEED TO USE MASTER DATABASE
+USE master;
+GO
 
 -- *** CHECKING IF CREATING DATA WAREHOUSE EXISTS ***
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name ='DataWarehouse')
