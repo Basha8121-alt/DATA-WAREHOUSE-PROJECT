@@ -1,3 +1,9 @@
+/* Script purpose:
+This script creates new database named 'DataWarehouse' 
+WARNING:
+Using this script will drop all existing data from 'DataWarehouse' if this named Database exists in server. So make sure you check this warning before you proceed to utilise this script.
+*/
+
 -- *** CREATING A BRAND NEW DATA WAREHOUSE ***
 
 -- *** CHECKING IF CREATING DATA WAREHOUSE EXISTS ***
